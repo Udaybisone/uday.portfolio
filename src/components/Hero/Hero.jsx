@@ -15,20 +15,20 @@ export const Hero = () => {
         
         <div className={styles.logos}>
 
-          <a href="https://github.com/Udaybisone" target="_blank">
+          <a href="https://leetcode.com/u/udaybisone/" target="_blank">
             <img src={getImageUrl("contact/leetcode.png")} alt="Leetcode"/>
           </a>
 
-          <a href="https://leetcode.com/u/udaybisone/" target="_blank">
-            <img src={getImageUrl("contact/codechef.png")} alt="Github icon" />
+          <a href="https://codeforces.com/profile/Udaybisone" target="_blank">
+            <img src={getImageUrl("contact/codeforces.png")} alt="codeforces" />
           </a>
 
-          <a href="mailto:udaybisone10@gmail.com" target="_blank">
-            <img src={getImageUrl("contact/gfg.png")} alt="Email icon" />
+          <a href="https://www.codechef.com/users/uday_bisone" target="_blank">
+            <img src={getImageUrl("contact/codechef.png")} alt="codechef" />
           </a>
 
-          <a href="mailto:udaybisone10@gmail.com" target="_blank">
-            <img src={getImageUrl("contact/codeforces.png")} alt="Email icon" />
+          <a href="https://www.geeksforgeeks.org/user/udaybisq14i/" target="_blank">
+            <img src={getImageUrl("contact/gfg.png")} alt="geeksforgeeks" />
           </a>
         </div>
 
