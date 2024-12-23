@@ -1,25 +1,25 @@
 [
   {
-    "title": "Project A",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
+    "title": "Expense Tracker",
+    "imageSrc": "projects/Expense Tracker.png",
+    "description": "Effortlessly manage your finances,track, categorize, and analyze your spending with ease",
+    "skills": ["React", "Express", "Node","MongoDB"],
     "demo": "https://www.example.com",
     "source": "https://www.github.com"
   },
   {
-    "title": "Project B",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
+    "title": "Job Portal",
+    "imageSrc": "projects/JobPortal.png",
+    "description": "Discover your next career move search jobs, apply effortlessly, and connect with top employers to secure your future.",
     "skills": ["React", "Express", "Node", "Sass"],
     "demo": "https://www.example.com",
     "source": "https://www.github.com"
   },
   {
-    "title": "Project C",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
+    "title": "Ecommerce Website",
+    "imageSrc": "projects/Ecommerce.png",
+    "description": "Shop smarter with our E-commerce platform: explore a wide range of products, enjoy seamless shopping, and secure checkout.",
+    "skills": ["React", "Express", "Node","firebase"],
     "demo": "https://www.example.com",
     "source": "https://www.github.com"
   }

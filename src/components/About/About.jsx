@@ -19,8 +19,7 @@ export const About = () => {
             <div className={styles.aboutItemText}>
               <h3>Frontend Developer</h3>
               <p>
-                I'm a frontend developer with experience in building responsive
-                and optimized sites
+              I'am a creative front-end developer who turns ideas into engaging and user-friendly web experiences
               </p>
             </div>
           </li>
@@ -29,18 +28,19 @@ export const About = () => {
             <div className={styles.aboutItemText}>
               <h3>Backend Developer</h3>
               <p>
-                I have experience developing fast and optimised back-end systems
-                and APIs
+              I'am backend developer who crafts robust and scalable server-side solutions to power seamless digital experiences
               </p>
             </div>
           </li>
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/cursorIcon.png")} alt="UI icon" />
+            <img className={styles.clgicon} src={getImageUrl("about/clgicon.png")} alt="UI icon" />
             <div className={styles.aboutItemText}>
-              <h3>UI Designer</h3>
+              <h3> Education</h3>
               <p>
-                I have designed multiple landing pages and have created design
-                systems as well
+                I am a B.Tech student specializing in Electronics and Communication Engineering at {' '}  
+                  <a href="https://iiitbhopal.ac.in/#/website/home" target="_blank" style={{ color: 'rgb(15, 94, 239)', textDecoration: 'none' }}>
+                    IIIT Bhopal
+                  </a>
               </p>
             </div>
           </li>

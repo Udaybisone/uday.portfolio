@@ -7,13 +7,27 @@ export const Hero = () => {
   return (
     <section className={styles.container}>
       <div className={styles.content}>
-        <h1 className={styles.title}>Hi, I'm Ada</h1>
+        <h1 className={styles.title}>Hi, This is Uday</h1>
         <p className={styles.description}>
-          I'm a full-stack developer with 5 years of experience using React and
-          NodeJS. Reach out if you'd like to learn more!
+        I'm a MERN stack developer ready to create impactful web applications—let's connect!
         </p>
-        <a href="mailto:myemail@email.com" className={styles.contactBtn}>
-          Contact Me
+        
+        <div className={styles.logos}>
+
+          <a href="https://github.com/Udaybisone" target="_blank">
+            <img src={getImageUrl("contact/githubIcon.png")} alt="Github icon" />
+          </a>
+
+          <a href="https://www.linkedin.com/in/uday-bisone-95aa21259/" target="_blank">
+            <img src={getImageUrl("contact/linkedinIcon.png")} alt="LinkedIn icon" />
+          </a>
+
+          <a href="mailto:udaybisone10@gmail.com" target="_blank">
+            <img src={getImageUrl("contact/emailIcon.png")} alt="Email icon" />
+          </a>
+        </div>
+        <a href="./Uday_CV.pdf" download="uday.resume" className={styles.contactBtn}>
+          Download CV
         </a>
       </div>
       <img

@@ -36,6 +36,10 @@
   gap: 50px;
 }
 
+.clgicon{
+  margin-right: 10px;
+}
+
 .aboutItem {
   display: flex;
   flex-direction: row;

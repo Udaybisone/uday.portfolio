@@ -11,12 +11,21 @@
   margin-right: 10%;
 }
 
+
 .content {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   color: var(--color-text);
   z-index: 1;
+}
+
+.logos{
+  width: 30rem; 
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4rem;
+  margin-bottom: 2.7rem;
 }
 
 .title {
@@ -51,7 +60,7 @@
 }
 
 .heroImg {
-  width: 50%;
+  width: 40%;
   z-index: 1;
 
   animation-name: floating;
