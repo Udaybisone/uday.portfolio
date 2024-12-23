@@ -28,6 +28,11 @@
   margin-bottom: 2.7rem;
 }
 
+.logos img{
+  max-width: 4.4rem;
+  max-height: 4.4rem;
+}
+
 .title {
   font-size: 72px;
   font-weight: 900;
